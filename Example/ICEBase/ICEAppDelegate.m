@@ -7,12 +7,14 @@
 //
 
 #import "ICEAppDelegate.h"
+#import <ICEBase/ICELog.h>
 
 @implementation ICEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[[ICELog alloc] init] ice_Log];
     return YES;
 }
 

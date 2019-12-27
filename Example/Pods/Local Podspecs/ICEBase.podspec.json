@@ -1,0 +1,22 @@
+{
+  "name": "ICEBase",
+  "version": "0.1.0",
+  "summary": "A short description of ICEBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/972867381@qq.com/ICEBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "972867381@qq.com": "linbingjie@itiger.com"
+  },
+  "source": {
+    "git": "https://github.com/972867381@qq.com/ICEBase.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ICEBase/Classes/**/*"
+}

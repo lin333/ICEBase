@@ -1,0 +1,16 @@
+PODS:
+  - ICEBase (0.1.0)
+
+DEPENDENCIES:
+  - ICEBase (from `../`)
+
+EXTERNAL SOURCES:
+  ICEBase:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ICEBase: 6f003b8ef2b75d2db391ee3a3c75614f0eafdcda
+
+PODFILE CHECKSUM: 1af2e797d85a55be1b0b55ac0b35fb1772469454
+
+COCOAPODS: 1.8.4

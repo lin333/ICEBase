@@ -9,6 +9,6 @@
 
 @implementation ICELog
 - (void)ice_Log {
-    NSLog(@"ICE");
+    NSLog(@"ICE loglog");
 }
 @end

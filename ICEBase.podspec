@@ -11,32 +11,44 @@ Pod::Spec.new do |s|
   s.version          = '0.1.1'
   s.summary          = 'A short description of ICEBase.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/lin333/ICEBase'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '972867381@qq.com' => 'linbingjie@itiger.com' }
   s.source           = { :git => 'https://github.com/lin333/ICEBase.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'ICEBase/Classes/**/*'
+  s.source_files = 'ICEBase/**/*'
+  
+  s.exclude_files = 'ICEBase/Deprecated/*.h'
+  s.resources = 'ICEBase/**/*.{json,png,jpg,gif,xib,bundle}'
+  
+  # s.vendored_libraries = 'ICEBase/**/*.a'
+  s.vendored_frameworks = 'ICEBase/*.framework'
+  
+  s.frameworks = 'ImageIO', 'MobileCoreServices', 'Security', 'AdSupport',
+    'WebKit'
+    
+  # s.default_subspec = ["Categories", 'Deprecated']
+  
+  
+  # s.subspec "Categories" do |ss|
+  #   ss.source_files = 'ICEBase/Categories/*.{h,m}'# 头⽂文件要暴暴露露
+  # end
+  
+  # s.subspec 'Deprecated' do |ss|
+  #   ss.source_files = 'ICEBase/Deprecated/*.h'# 头⽂文件要暴暴露露
+  # end
   
   # s.resource_bundles = {
   #   'ICEBase' => ['ICEBase/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.public_header_files = 'ICEBase/**/*.h'
+   s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

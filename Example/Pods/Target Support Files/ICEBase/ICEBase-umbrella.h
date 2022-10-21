@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIView+LBJLog.h"
 #import "ICELog.h"
 
 FOUNDATION_EXPORT double ICEBaseVersionNumber;

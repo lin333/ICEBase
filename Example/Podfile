@@ -1,10 +1,12 @@
-use_frameworks!
+#use_frameworks!
 
-platform :ios, '8.0'
+platform :ios, '12.0'
 
 target 'ICEBase_Example' do
   pod 'ICEBase', :path => '../'
 
   pod 'AFNetworking'
+#  pod 'YYModel',:podspec => 'https://github.com/ibireme/YYModel/raw/master/YYModel.podspec'
 
 end
+

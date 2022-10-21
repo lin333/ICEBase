@@ -29,10 +29,7 @@ TODO: Add long description of the pod here.
   
   # s.vendored_libraries = 'ICEBase/**/*.a'
   s.vendored_frameworks = 'ICEBase/*.framework'
-  
-  s.frameworks = 'ImageIO', 'MobileCoreServices', 'Security', 'AdSupport',
-    'WebKit'
-    
+
   # s.default_subspec = ["Categories", 'Deprecated']
   
   

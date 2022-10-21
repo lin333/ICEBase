@@ -1,16 +1,37 @@
 PODS:
-  - ICEBase (0.1.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - ICEBase (0.1.1)
 
 DEPENDENCIES:
+  - AFNetworking
   - ICEBase (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   ICEBase:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ICEBase: 6f003b8ef2b75d2db391ee3a3c75614f0eafdcda
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  ICEBase: 593ffd9985dc3df89ab12debc2a9f1f693deb1f4
 
-PODFILE CHECKSUM: 1af2e797d85a55be1b0b55ac0b35fb1772469454
+PODFILE CHECKSUM: ce32908352be97d881a492bf4728960586cb5b2d
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.11.3

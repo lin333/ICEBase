@@ -22,9 +22,9 @@
   "exclude_files": "ICEBase/Deprecated/*.h",
   "resources": "ICEBase/**/*.{json,png,jpg,gif,xib,bundle}",
   "vendored_frameworks": "ICEBase/*.framework",
+  "public_header_files": "ICEBase/**/*.h",
   "frameworks": [
     "UIKit",
     "MapKit"
-  ],
-  "public_header_files": "ICEBase/**/*.h"
+  ]
 }

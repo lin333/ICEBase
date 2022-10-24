@@ -1,0 +1,33 @@
+---
+installation_method:
+  name: cocoapods
+  options:
+    :deterministic_uuids: false
+    :generate_multiple_pod_projects: false
+    :incremental_installation: false
+    :share_schemes_for_development_pods: true
+    :warn_for_multiple_pod_sources: false
+workspace: ICEBase.xcworkspace
+sources:
+  - "git@github.com:lin333/example_spec_bin_dev.git"
+  - "git@github.com:lin333/example_spec_source.git"
+  - https://cdn.cocoapods.org
+plugins:
+  cocoapods-disable-podfile-validations:
+    no_abstract_only_pods: true
+  cocoapods-generate:
+    {}
+  cocoapods-imy-bin:
+    {}
+target_definitions:
+  - abstract: true
+    children:
+      - name: App-iOS
+    dependencies:
+      - ICEBase:
+        - :path: "../../../Example/ICEBase.podspec"
+    name: Pods
+    user_project_path: ICEBase.xcodeproj
+    uses_frameworks:
+      :linkage: :dynamic
+      :packaging: :framework

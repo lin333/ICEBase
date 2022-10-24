@@ -1,0 +1,30 @@
+{
+  "name": "ICEBase",
+  "version": "0.1.1",
+  "summary": "A short description of ICEBase.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lin333/ICEBase",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "972867381@qq.com": "linbingjie@itiger.com"
+  },
+  "source": {
+    "git": "https://github.com/lin333/ICEBase.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "ICEBase/**/*",
+  "exclude_files": "ICEBase/Deprecated/*.h",
+  "resources": "ICEBase/**/*.{json,png,jpg,gif,xib,bundle}",
+  "vendored_frameworks": "ICEBase/*.framework",
+  "public_header_files": "ICEBase/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit"
+  ]
+}

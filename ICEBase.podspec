@@ -45,7 +45,7 @@ TODO: Add long description of the pod here.
   #   'ICEBase' => ['ICEBase/Assets/*.png']
   # }
 
-  s.public_header_files = 'ICEBase/**/*.{h}'
+  s.public_header_files = 'ICEBase/*.{h}'
    s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

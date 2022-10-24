@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.resources = 'ICEBase/**/*.{json,png,jpg,gif,xib,bundle}'
   
   # s.vendored_libraries = 'ICEBase/**/*.a'
-  s.vendored_frameworks = 'ICEBase/*.framework'
+  #s.vendored_frameworks = 'ICEBase/*.framework'
 
   # s.default_subspec = ["Categories", 'Deprecated']
   

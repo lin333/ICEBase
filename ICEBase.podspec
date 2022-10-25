@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lin333/ICEBase'
+  s.homepage         = 'https://git.tigerbrokers.net/linbingjie/ICEBase'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '972867381@qq.com' => 'linbingjie@itiger.com' }
-  s.source           = { :git => 'https://github.com/lin333/ICEBase.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://git.tigerbrokers.net/linbingjie/ICEBase.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '12.0'
 
